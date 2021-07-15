@@ -1,0 +1,3549 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce02afc1981ea0f48809d850be49b73f, type: 3}
+  m_Name: Levels
+  m_EditorClassIdentifier: 
+  levels:
+  - levelName: Level.0
+    themeId: 
+    saveableLevelObjects_List:
+    - obj_id: StaticRod
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 8
+      posY: 14
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 44.999996
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Cube_Obstacle
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3
+      posY: 16
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 1
+      moveFeature:
+        offsetX: 0
+        offsetY: 5
+        isHorizontal: 0
+        time: 2
+        isStartAtStart: 1
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Cube_Obstacle
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 1
+      posY: 16
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 1
+      moveFeature:
+        offsetX: 0
+        offsetY: 5
+        isHorizontal: 0
+        time: 2
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Player
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4
+      posY: 6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.5
+      scaleY: 1.5
+      scaleZ: 1.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.1
+    themeId: Theme
+    saveableLevelObjects_List:
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: -2
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: 1
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: 4
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: 5.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: PlayerPack
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: 6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -6.5
+      posY: 13
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -3.5
+      posY: 13
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0.5
+      posY: 13
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.5
+      posY: 25
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.5
+      posY: 28
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 5
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.5
+      posY: 30.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0
+      posY: 37.5
+      posZ: 0
+      rotX: 0
+      rotY: 0
+      rotZ: 276.01907
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 1
+      moveFeature:
+        offsetX: 4
+        offsetY: 4
+        isHorizontal: 0
+        time: 6
+        isStartAtStart: 1
+      isHasRotateFeature: 1
+      rotateFeature:
+        time: 3
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 7
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.5
+      posY: 9
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.5
+      posY: 18
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4
+      posY: 27.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.5
+      posY: 38.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.2
+    themeId: Theme
+    saveableLevelObjects_List:
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.5
+      posY: -1.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.4
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.5
+      posY: 1.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.4
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.5
+      posY: 4.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.4
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.5
+      posY: 6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Player
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.5
+      posY: 6.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.5
+      scaleY: 1.5
+      scaleZ: 1.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.5
+      posY: 9
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.3
+    themeId: Theme
+    saveableLevelObjects_List:
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: 0
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: PlayerPack
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: 0.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.5
+      posY: 8.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.4
+    themeId: Theme
+    saveableLevelObjects_List:
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 5
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0
+      posY: 10
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 285.63306
+      scaleX: 1
+      scaleY: 0.4
+      scaleZ: 0.5
+      isHasMoveFeature: 1
+      moveFeature:
+        offsetX: 0
+        offsetY: 3
+        isHorizontal: 1
+        time: 3
+        isStartAtStart: 1
+      isHasRotateFeature: 1
+      rotateFeature:
+        time: 1
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: 5.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: PlayerPack
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: 6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 6
+      posY: 11.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.5
+    themeId: 
+    saveableLevelObjects_List:
+    - obj_id: StaticRod
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5
+      posY: 13
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Player
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4
+      posY: 5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.5
+      scaleY: 1.5
+      scaleZ: 1.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.6
+    themeId: 
+    saveableLevelObjects_List:
+    - obj_id: StaticRod
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4
+      posY: 13
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.7
+    themeId: 
+    saveableLevelObjects_List:
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.6
+      posY: 12.75
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Player
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 2.55
+      posY: 2.8
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.5
+      scaleY: 1.5
+      scaleZ: 1.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.8
+    themeId: 
+    saveableLevelObjects_List:
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 9
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.21
+      posY: 6.11
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.04
+      posY: 4.62
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.41
+      posY: 4.62
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.08
+      posY: 1.51
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.45
+      posY: 1.55
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.9
+    themeId: Theme
+    saveableLevelObjects_List:
+    - obj_id: Player
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 6.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.5
+      scaleY: 1.5
+      scaleZ: 1.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 5.87
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.92
+      posY: 20.6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -1.99
+      posY: 20.6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.9
+      posY: 20.6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 4
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.79
+      posY: 20.63
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 4.17
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 1.07
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.48
+      posY: 3.95
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0
+      posY: 2.06
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.48
+      posY: 2.21
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.48
+      posY: 0.73
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0
+      posY: 0.73
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 9
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.36
+      posY: 6.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.19
+      posY: 4.95
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.23
+      posY: 1.99
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.56
+      posY: 4.99
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.56
+      posY: 1.95
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.39
+      posY: 8.57
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 6
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0.04
+      posY: 14.9
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.10
+    themeId: Theme
+    saveableLevelObjects_List:
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 5.87
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.92
+      posY: 20.6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -1.99
+      posY: 20.6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.9
+      posY: 20.6
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 4
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.79
+      posY: 20.63
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 4.17
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 1.07
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.48
+      posY: 3.95
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0
+      posY: 2.06
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.48
+      posY: 2.21
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.48
+      posY: 0.73
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0
+      posY: 0.73
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 9
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.36
+      posY: 6.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.19
+      posY: 4.95
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.23
+      posY: 1.99
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.56
+      posY: 4.99
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.56
+      posY: 1.95
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.39
+      posY: 8.57
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 6
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0.04
+      posY: 14.9
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: PlayerPack
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 6.56
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.11
+    themeId: Theme
+    saveableLevelObjects_List:
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 5.87
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 4.17
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 1.07
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.48
+      posY: 3.95
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.48
+      posY: 2.21
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.48
+      posY: 0.73
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 9
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.36
+      posY: 6.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.19
+      posY: 4.95
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.23
+      posY: 1.99
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.56
+      posY: 4.99
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.56
+      posY: 1.95
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: PlayerPack
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 6.56
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 5
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.39
+      posY: 8.37
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.81
+      posY: 14.38
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 6
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0.83
+      posY: 16.19
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.19
+      posY: 0.77
+      posZ: 0
+      rotX: 0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.19
+      posY: 2.29
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.12
+    themeId: Theme
+    saveableLevelObjects_List:
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.47
+      posY: 1.84
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: PlayerPack
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.47
+      posY: 2.47
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.39
+      posY: 8.5
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 6
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0.04
+      posY: 16.36
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.9
+      posY: 19.58
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.78
+      posY: 28.21
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: Level.13
+    themeId: Theme
+    saveableLevelObjects_List:
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 4.21
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5
+      posY: 1.33
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.03
+      posY: -1.48
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.96
+      posY: 5.77
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.44
+      posY: -1.74
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.4
+      posY: 1.14
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.33
+      posY: 2.81
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.04
+      posY: -1.63
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 270
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 2.63
+      posY: 4.18
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 2.63
+      posY: 1.44
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 2.63
+      posY: -1.45
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 9
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.79
+      posY: 5.8
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.96
+      posY: 4.25
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.96
+      posY: 1.36
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 2
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 4.96
+      posY: -1.56
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 90
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Ground
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.04
+      posY: -0.04
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1.2
+      scaleY: 1
+      scaleZ: 1.2
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Rod
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.87
+      posY: 7.17
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 6
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0.3
+      posY: 10.72
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.22
+      posY: 18.23
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -2.44
+      posY: 18.23
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 0.38
+      posY: 18.23
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.19
+      posY: 18.23
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.97
+      posY: 18.23
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Environment
+      isSubObject: 1
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -8.04
+      posY: 18.23
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -5.9
+      posY: 17.9
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.58
+      posY: 17.97
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -3.04
+      posY: 18.01
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -1.62
+      posY: 18.05
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -0.15
+      posY: 18.12
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 1.24
+      posY: 18.19
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 2.67
+      posY: 18.08
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 3.94
+      posY: 18.05
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 5.33
+      posY: 18.19
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: Deadly
+      isSubObject: 1
+      subNumber: 1
+      nodePosX: 0
+      nodePosZ: 0
+      posX: 6.42
+      posY: 18.27
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 180
+      scaleX: 0.5
+      scaleY: 0.5
+      scaleZ: 0.5
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+    - obj_id: PlayerPack
+      isSubObject: 0
+      subNumber: 0
+      nodePosX: 0
+      nodePosZ: 0
+      posX: -4.92
+      posY: 6.43
+      posZ: 0
+      rotX: -0
+      rotY: 0
+      rotZ: 0
+      scaleX: 1
+      scaleY: 1
+      scaleZ: 1
+      isHasMoveFeature: 0
+      moveFeature:
+        offsetX: 0
+        offsetY: 0
+        isHorizontal: 0
+        time: 0
+        isStartAtStart: 0
+      isHasRotateFeature: 0
+      rotateFeature:
+        time: 0
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []
+  - levelName: 
+    themeId: 
+    saveableLevelObjects_List: []

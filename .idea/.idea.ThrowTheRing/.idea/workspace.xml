@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d0a84c5-f0c3-44ff-8df3-e1afda80e26e" name="Default Changelist" comment="[1398.11.04] Camera Move And Multiple Rod System Added &#10;Steal Working On It">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThrowTheRing/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThrowTheRing/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThrowTheRing/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThrowTheRing/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ThrowTheRing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ThrowTheRing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Environment Elements/Rod.002/Rod.002.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Environment Elements/Rod.002/Rod.002.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Environment Elements/Rod.003/Rod.003.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Environment Elements/Rod.003/Rod.003.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Environment Elements/TorusHalf/TorusHalf.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Environment Elements/TorusHalf/TorusHalf.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Rod.002(Target Rod)/Rod.002.(-45deg).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Rod.002(Target Rod)/Rod.002.(-45deg).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Rod.002(Target Rod)/Rod.002.(45deg).prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Rod.002(Target Rod)/Rod.002.(45deg).prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Scripts/ResourceManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Scripts/ResourceManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/LevelEditor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/LevelEditor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scriptables/Levels.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scriptables/Levels.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/GenerateLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/GenerateLevel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/LevelCreator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/LevelCreator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/ObjectFeatures.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/ObjectFeatures.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/BGCollector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Trajectory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Win_Collider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Lose_Detector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Theme/ThemeResource.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Level-Objects/2Cube_Obstacle.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Core.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/TorusPhysic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/Swipe.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectsScript/Move2.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectsScript/ShowPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectsScript/RodSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectsScript/Rotate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectsScript/Move.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Resource Managers/ResourcesManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Resource Managers/Level_GameObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Resource Managers/Levels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Scripts/Detectors/WallHackDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObjectsScript/DeadlyObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/DropDownScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/GenerateLevel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ultimate 2D Trajectory Predictor/MaskScriptChildren.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/Level_SaveLoad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/ChangeScene.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/Node.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/LevelCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/LevelFunctions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/ObjectFeatures.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/InterfaceManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/FeatureSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/LevelManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/CreateObjectButtons.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/CameraLevelEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Level-Objects/Cone.001/Cone.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/SubNode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ultimate 2D Trajectory Predictor/trajectoryScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/GridBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/Scriptable Objects/CreateLevelObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/Scriptable Objects/LevelObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scriptables/Levels.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Utils/Plist.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/Windows/ActPrefsEditor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/LogManager/LogManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CreateRing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/CodeStage/AntiCheatToolkit/Editor/Scripts/PropertyDrawers/ObscuredVector2Drawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/CreateRing.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/HoldDownAndRelease.cs" />
+        <option value="$PROJECT_DIR$/Assets/Ultimate 2D Trajectory Predictor/trajectoryScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable Objects/LevelObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Scriptable Objects/CreateLevelObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectsScript/Move2.cs" />
+        <option value="$PROJECT_DIR$/Temp/Compiled-Unlit-Test.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TorusPhysic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CreateLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/Node.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/GridBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/DropDownScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Swipe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Trajectory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GenerateLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectsScript/ShowPath.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectsScript/Move.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectsScript/Rotate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Theme/Theme.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resource Managers/ResourcesManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/Level_SaveLoad.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ui/UiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ui/HoldDownAndRelease.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/ChangeScene.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resource Managers/Levels.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Resource Managers/Level_GameObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/FeatureSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/TorusSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectsScript/RodSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Ui/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Win_Collider.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Swipe.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/CreateObjectButtons.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/TorusPhysic.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Lose_Detector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Theme/ThemeResource.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObjectsScript/DeadlyObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/test.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/CameraLevelEditor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Core/BGCollector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/LevelCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/GenerateLevel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/ObjectFeatures.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Level Editor Scripts/LevelFunctions.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UQFzP6ZisBacdhUCTvRJFPlSXH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="8312">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="8312" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d0a84c5-f0c3-44ff-8df3-e1afda80e26e" name="Default Changelist" comment="" />
+      <created>1575281176680</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575281176680</updated>
+      <workItem from="1575281189337" duration="2758000" />
+      <workItem from="1575362549181" duration="21671000" />
+      <workItem from="1575710191673" duration="24084000" />
+      <workItem from="1575869986003" duration="41949000" />
+      <workItem from="1576007682599" duration="786000" />
+      <workItem from="1576133381383" duration="3581000" />
+      <workItem from="1576317860800" duration="11864000" />
+      <workItem from="1576668415516" duration="597000" />
+      <workItem from="1576915285606" duration="6786000" />
+      <workItem from="1576941397634" duration="599000" />
+      <workItem from="1576943396658" duration="245000" />
+      <workItem from="1576943759839" duration="874000" />
+      <workItem from="1576945258825" duration="11488000" />
+      <workItem from="1577027499142" duration="727000" />
+      <workItem from="1577094137137" duration="14965000" />
+      <workItem from="1577203119680" duration="4917000" />
+      <workItem from="1577372484398" duration="20527000" />
+      <workItem from="1577516804144" duration="18554000" />
+      <workItem from="1577612001195" duration="5931000" />
+      <workItem from="1577722212922" duration="2359000" />
+      <workItem from="1577957674484" duration="6227000" />
+      <workItem from="1579330302019" duration="16309000" />
+      <workItem from="1579417731817" duration="16414000" />
+      <workItem from="1579587377462" duration="16451000" />
+      <workItem from="1579673763236" duration="3678000" />
+      <workItem from="1579684317333" duration="3266000" />
+      <workItem from="1579690599178" duration="11153000" />
+      <workItem from="1579870754156" duration="8932000" />
+      <workItem from="1579886946723" duration="16103000" />
+      <workItem from="1579941690922" duration="5043000" />
+      <workItem from="1579952977984" duration="860000" />
+      <workItem from="1579959019543" duration="2879000" />
+      <workItem from="1580024802539" duration="260000" />
+      <workItem from="1580025131078" duration="94000" />
+      <workItem from="1610907731351" duration="1037000" />
+    </task>
+    <task id="LOCAL-00001" summary="[1398.09.30] Going To Change Unity to 2019.2.15f1">
+      <created>1576944251676</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576944251677</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[1398.09.30] unity 2019.2.16f1 Started">
+      <created>1576945367130</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576945367130</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[1398.11.04] Camera Move And Multiple Rod System Added &#10;Steal Working On It">
+      <created>1579885916906</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1579885916906</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[1398.09.30] Going To Change Unity to 2019.2.15f1" />
+    <MESSAGE value="[1398.09.30] unity 2019.2.16f1 Started" />
+    <MESSAGE value="[1398.11.04] Camera Move And Multiple Rod System Added &#10;Steal Working On It" />
+    <option name="LAST_COMMIT_MESSAGE" value="[1398.11.04] Camera Move And Multiple Rod System Added &#10;Steal Working On It" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="42" key="#Notifications" timestamp="1576946146970">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1576946146970" />
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1579684797965">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1579684797965" />
+    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1579684797965">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1579684797965" />
+    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1579684797963">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1579684797963" />
+    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1579684797965">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1579684797965" />
+    <state x="1" y="0" key="SettingsEditor" timestamp="1579882598318">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="1" y="0" key="SettingsEditor/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1579882598318" />
+    <state x="1" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1577109539660" />
+    <state x="354" y="89" key="VCS.ChangeListViewerDialog" timestamp="1577443180974">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="354" y="89" key="VCS.ChangeListViewerDialog/0.0.1366.768@0.0.1366.768" timestamp="1577443180974" />
+    <state x="354" y="89" key="VCS.ChangeListViewerDialog/1366.768" timestamp="1576941467176" />
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2" timestamp="1576944359387">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="116" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1576944359387" />
+    <state x="88" y="60" width="1182" height="584" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1576944324144">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="88" y="60" width="1182" height="584" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.768@0.0.1366.768" timestamp="1576944324144" />
+    <state x="326" y="54" width="714" height="660" key="find.popup" timestamp="1579887582452">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="326" y="54" width="714" height="660" key="find.popup/0.0.1366.768/1366.0.1366.768@0.0.1366.768" timestamp="1579887582452" />
+    <state x="326" y="54" width="714" height="660" key="find.popup/0.0.1366.768@0.0.1366.768" timestamp="1579345394238" />
+    <state x="326" y="54" width="714" height="660" key="find.popup/1366.768" timestamp="1576941467176" />
+    <state x="339" y="172" width="672" height="677" key="run.anything.popup" timestamp="1576941467176" />
+    <state x="339" y="172" width="672" height="677" key="run.anything.popup/1366.768" timestamp="1576941467176" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577374833159">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1577374833159" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/1366.768/1366.768" timestamp="1576941467176" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Scriptable Objects/LevelObject.cs</url>
+          <line>18</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/Scriptable Objects/LevelObject.cs" initialLine="10" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

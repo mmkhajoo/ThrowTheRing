@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1149778168804433634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149778168804433632}
+  - component: {fileID: 1149778168804433635}
+  m_Layer: 0
+  m_Name: ResourceManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149778168804433632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149778168804433634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1149778168804433635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149778168804433634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae563e4d7ffe8a7488cec3b94f0fafbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelGameObjects:
+  - obj_id: Rod
+    nickName: static
+    image: {fileID: 21300000, guid: 6106b11fda30e904e9264a447fd2184e, type: 3}
+    objPrefab: {fileID: 7994729650769589086, guid: 8cfcce67de86fba40befcd302063d4e5,
+      type: 3}
+    subObjects:
+    - name: Rod0
+      objPrefab: {fileID: 7994729650769589086, guid: 8cfcce67de86fba40befcd302063d4e5,
+        type: 3}
+      image: {fileID: 21300000, guid: 6106b11fda30e904e9264a447fd2184e, type: 3}
+    - name: Rod(45)
+      objPrefab: {fileID: 1885038926264872159, guid: a65d9b0db37d26f4f8e4238493fbc35d,
+        type: 3}
+      image: {fileID: 21300000, guid: 5eb6f34d0dca4f349896b2c388428998, type: 3}
+    - name: Rod(-45)
+      objPrefab: {fileID: 1885038926264872159, guid: a352c99ee9fd8c6448c1348a019f4bc8,
+        type: 3}
+      image: {fileID: 21300000, guid: 3edb133830f9d7a47b1e78bba69daff8, type: 3}
+    - name: Rod(90)
+      objPrefab: {fileID: 1885038926264872159, guid: 7687ed36c1843514f9103bfb0090e326,
+        type: 3}
+      image: {fileID: 21300000, guid: 97666ef0baf66954eab1b9414a938b8d, type: 3}
+    - name: Rod(-90)
+      objPrefab: {fileID: 1885038926264872159, guid: daa96e004d433a349a412679071ffaf3,
+        type: 3}
+      image: {fileID: 21300000, guid: 6ae4ccf3d7147bd41bc89a7f263338e2, type: 3}
+    - name: ShortRod
+      objPrefab: {fileID: 272598093215682512, guid: bada302efa60e674abd48bb0065f3077,
+        type: 3}
+      image: {fileID: 21300000, guid: 8cfe5fce86d3ecb46bfbd154deaedb3b, type: 3}
+    - name: ShortRod.-45deg
+      objPrefab: {fileID: 8520254540016129662, guid: 965a18ab52c00494ea5b8a4532e65dcc,
+        type: 3}
+      image: {fileID: 21300000, guid: bd91f908d34c71a42a89aafa291b82a3, type: 3}
+    - name: ShortRod.45deg
+      objPrefab: {fileID: 8520254540016129662, guid: b3ce028d82b8a414ea3cdcb204a57848,
+        type: 3}
+      image: {fileID: 21300000, guid: 3c14eb7f34039154ba742a238b5b11b0, type: 3}
+  - obj_id: Player
+    nickName: PL
+    image: {fileID: 21300000, guid: 4a4fe1662e0a28947ae60487876091cf, type: 3}
+    objPrefab: {fileID: 6793989710190087472, guid: 52cccad2e0194244e8d70186b546bef8,
+      type: 3}
+    subObjects: []
+  - obj_id: Ground
+    nickName: G
+    image: {fileID: 21300000, guid: ae0f912947f5c8a46a2c3e4d508ccd0b, type: 3}
+    objPrefab: {fileID: 6515020353581460684, guid: e16c80e412eefe9458291a917aa3ac51,
+      type: 3}
+    subObjects: []
+  - obj_id: Environment
+    nickName: PL
+    image: {fileID: 21300000, guid: 9541058952b56bf4d99c8d064f55cfa8, type: 3}
+    objPrefab: {fileID: 7214781441685080175, guid: dd3db9bccff24e34f961e2d6866e1c5f,
+      type: 3}
+    subObjects:
+    - name: Rod.002
+      objPrefab: {fileID: 7214781441685080175, guid: dd3db9bccff24e34f961e2d6866e1c5f,
+        type: 3}
+      image: {fileID: 21300000, guid: 9541058952b56bf4d99c8d064f55cfa8, type: 3}
+    - name: Rod.002.-90deg
+      objPrefab: {fileID: 7950557272068499403, guid: b03367b1adbd5c84f883132096ea8078,
+        type: 3}
+      image: {fileID: 21300000, guid: b1cebf69293722245b1ca63c7971aaaf, type: 3}
+    - name: Rod.002.90deg
+      objPrefab: {fileID: 7950557272068499403, guid: 3fa14968289037b4e8a9349db1174e87,
+        type: 3}
+      image: {fileID: 21300000, guid: f106777928cf30841b76299f186231b3, type: 3}
+    - name: Rod.002.180deg
+      objPrefab: {fileID: 7950557272068499403, guid: c765d6cd06b9da043a5d394a337afd08,
+        type: 3}
+      image: {fileID: 21300000, guid: 552a7cad211a03e43add6e818fdd2693, type: 3}
+    - name: Rod.003
+      objPrefab: {fileID: 1573048932850692689, guid: 7afbdf30338b82e4a9e907e47f3be079,
+        type: 3}
+      image: {fileID: 21300000, guid: c787514a19dece24a8ee926622b2ffd9, type: 3}
+    - name: Rod.003.-90deg
+      objPrefab: {fileID: 4526366022516258429, guid: b77f2d607ff192d46beeb2cdfdfc061c,
+        type: 3}
+      image: {fileID: 21300000, guid: b9ed6f4887a233d488fd352ebe22e9b7, type: 3}
+    - name: Torus
+      objPrefab: {fileID: 8284107974484151764, guid: c1e0064aa04149f46b9765e14dfa12ca,
+        type: 3}
+      image: {fileID: 21300000, guid: c6900795196ccb84b90cc5adde37e978, type: 3}
+    - name: TorusHalf
+      objPrefab: {fileID: 894133460602943569, guid: 239a7a743f5d9e74b898b0f6411451e1,
+        type: 3}
+      image: {fileID: 21300000, guid: c074d864b4e4fa8428987814d11e6632, type: 3}
+    - name: TorusHalf.-90deg
+      objPrefab: {fileID: 3018799899263723400, guid: baa51d2ec459dfc4ba6b4c940742b4af,
+        type: 3}
+      image: {fileID: 21300000, guid: eb346e1a12a45504cabf99947146ac05, type: 3}
+    - name: TorusHalf.90deg
+      objPrefab: {fileID: 3018799899263723400, guid: 01e38df9c9c4a5a418ef0ac396853773,
+        type: 3}
+      image: {fileID: 21300000, guid: df02eef16e2be6c49ab73e6a1b600f47, type: 3}
+    - name: TorusHalf.180deg
+      objPrefab: {fileID: 3018799899263723400, guid: 42a9564571764d846bc485819e5833c3,
+        type: 3}
+      image: {fileID: 21300000, guid: ba4d0dfc533785a409c1d476b9e86dd3, type: 3}
+  - obj_id: Deadly
+    nickName: D
+    image: {fileID: 21300000, guid: d1ca6a90992734e4c8005e59814e7c35, type: 3}
+    objPrefab: {fileID: 8451638583209262785, guid: eef86d220dd73134b8868ff44bbf5169,
+      type: 3}
+    subObjects:
+    - name: Cone
+      objPrefab: {fileID: 8451638583209262785, guid: eef86d220dd73134b8868ff44bbf5169,
+        type: 3}
+      image: {fileID: 21300000, guid: d1ca6a90992734e4c8005e59814e7c35, type: 3}
+    - name: Cone.180deg
+      objPrefab: {fileID: 299458210065546197, guid: 66e3b37e22eda434b995fae19ea295b6,
+        type: 3}
+      image: {fileID: 21300000, guid: 9079a0853ca838c4a9d748bea3702928, type: 3}
+    - name: Cone.-90deg
+      objPrefab: {fileID: 299458210065546197, guid: 01a3f0daed4ee884fb6d429fae060a0d,
+        type: 3}
+      image: {fileID: 21300000, guid: b6b9870a734731f4cbbf916a6a1c371d, type: 3}
+    - name: Cone.90deg
+      objPrefab: {fileID: 299458210065546197, guid: 7046016b27cbecf4c8f022d74124a0dc,
+        type: 3}
+      image: {fileID: 21300000, guid: 45c11cc5177b23d479138674f2e6f2a1, type: 3}
+  - obj_id: PlayerPack
+    nickName: PP
+    image: {fileID: 21300000, guid: 6b11112f0ce38ca4e99e4a99c5f4a8fc, type: 3}
+    objPrefab: {fileID: 7699113386856623164, guid: 70d4f8be290077242af738091c6f3b6f,
+      type: 3}
+    subObjects: []

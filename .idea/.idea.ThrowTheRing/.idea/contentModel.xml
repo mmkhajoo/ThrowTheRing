@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\SirMahdi\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\SirMahdi\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_ThrowTheRing.1104463038.00" t="ExcludeRecursive" />
+    <e p="H:\Unity[Jobs]\ThrowTheRing[2019.2.18]\ThrowTheRing\ThrowTheRing" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="Scriptable Objects" t="Include">
+            <e p="CreateLevelObject.cs" t="Include" />
+            <e p="LevelObject.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="CodeStage" t="Include">
+            <e p="AntiCheatToolkit" t="Include">
+              <e p="API.txt" t="Include" />
+              <e p="Changelog.txt" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ActEditorGlobalStuff.cs" t="Include" />
+                  <e p="ActEditorGUI.cs" t="Include" />
+                  <e p="ActPostprocessor.cs" t="Include" />
+                  <e p="AllowedAssembly.cs" t="Include" />
+                  <e p="Editors" t="Include">
+                    <e p="ActDetectorEditor.cs" t="Include" />
+                    <e p="InjectionDetectorEditor.cs" t="Include" />
+                    <e p="ObscuredCheatingDetectorEditor.cs" t="Include" />
+                    <e p="SpeedHackDetectorEditor.cs" t="Include" />
+                    <e p="TimeCheatingDetectorEditor.cs" t="Include" />
+                    <e p="WallHackDetectorEditor.cs" t="Include" />
+                  </e>
+                  <e p="PropertyDrawers" t="Include">
+                    <e p="ObscuredBoolDrawer.cs" t="Include" />
+                    <e p="ObscuredDecimalDrawer.cs" t="Include" />
+                    <e p="ObscuredDoubleDrawer.cs" t="Include" />
+                    <e p="ObscuredFloatDrawer.cs" t="Include" />
+                    <e p="ObscuredIntDrawer.cs" t="Include" />
+                    <e p="ObscuredLongDrawer.cs" t="Include" />
+                    <e p="ObscuredPropertyDrawer.cs" t="Include" />
+                    <e p="ObscuredShortDrawer.cs" t="Include" />
+                    <e p="ObscuredStringDrawer.cs" t="Include" />
+                    <e p="ObscuredUIntDrawer.cs" t="Include" />
+                    <e p="ObscuredULongDrawer.cs" t="Include" />
+                    <e p="ObscuredVector2Drawer.cs" t="Include" />
+                    <e p="ObscuredVector2IntDrawer.cs" t="Include" />
+                    <e p="ObscuredVector3Drawer.cs" t="Include" />
+                    <e p="ObscuredVector3IntDrawer.cs" t="Include" />
+                  </e>
+                  <e p="Utils" t="Include">
+                    <e p="MigrateUtils.cs" t="Include" />
+                    <e p="Plist.cs" t="Include" />
+                  </e>
+                  <e p="Windows" t="Include">
+                    <e p="ActAssembliesWhitelist.cs" t="Include" />
+                    <e p="ActPrefsEditor.cs" t="Include" />
+                    <e p="ActSettings.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="Examples" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="ActRotatorExample.cs" t="Include" />
+                  <e p="ActTesterGui.cs" t="Include" />
+                  <e p="ObscuredPerformanceTests.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Integration" t="Include">
+                <e p="readme.txt" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Common" t="Include">
+                  <e p="ACTkByte16.cs" t="Include" />
+                  <e p="ACTkByte4.cs" t="Include" />
+                  <e p="ACTkByte8.cs" t="Include" />
+                  <e p="ACTkConstants.cs" t="Include" />
+                </e>
+                <e p="Detectors" t="Include">
+                  <e p="ActDetectorBase.cs" t="Include" />
+                  <e p="InjectionDetector.cs" t="Include" />
+                  <e p="ObscuredCheatingDetector.cs" t="Include" />
+                  <e p="SpeedHackDetector.cs" t="Include" />
+                  <e p="TimeCheatingDetector.cs" t="Include" />
+                  <e p="WallHackDetector.cs" t="Include" />
+                </e>
+                <e p="ObscuredTypes" t="Include">
+                  <e p="ObscuredBool.cs" t="Include" />
+                  <e p="ObscuredByte.cs" t="Include" />
+                  <e p="ObscuredChar.cs" t="Include" />
+                  <e p="ObscuredDecimal.cs" t="Include" />
+                  <e p="ObscuredDouble.cs" t="Include" />
+                  <e p="ObscuredFloat.cs" t="Include" />
+                  <e p="ObscuredInt.cs" t="Include" />
+                  <e p="ObscuredLong.cs" t="Include" />
+                  <e p="ObscuredPrefs.cs" t="Include" />
+                  <e p="ObscuredQuaternion.cs" t="Include" />
+                  <e p="ObscuredSByte.cs" t="Include" />
+                  <e p="ObscuredShort.cs" t="Include" />
+                  <e p="ObscuredString.cs" t="Include" />
+                  <e p="ObscuredUInt.cs" t="Include" />
+                  <e p="ObscuredULong.cs" t="Include" />
+                  <e p="ObscuredUShort.cs" t="Include" />
+                  <e p="ObscuredVector2.cs" t="Include" />
+                  <e p="ObscuredVector2Int.cs" t="Include" />
+                  <e p="ObscuredVector3.cs" t="Include" />
+                  <e p="ObscuredVector3Int.cs" t="Include" />
+                </e>
+                <e p="Utils" t="Include">
+                  <e p="xxHash.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="WallHackTexture.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="LogManager" t="Include">
+            <e p="LogManager.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Core" t="Include">
+            <e p="BGCollector.cs" t="Include" />
+            <e p="CameraController.cs" t="Include" />
+            <e p="GameManager.cs" t="Include" />
+            <e p="HoldDownAndRelease.cs" t="Include" />
+            <e p="UiManager.cs" t="Include" />
+          </e>
+          <e p="CreateRing.cs" t="Include" />
+          <e p="Level Editor Scripts" t="Include">
+            <e p="CameraLevelEditor.cs" t="Include" />
+            <e p="ChangeScene.cs" t="Include" />
+            <e p="CreateObjectButtons.cs" t="Include" />
+            <e p="DropDownScript.cs" t="Include" />
+            <e p="FeatureSystem.cs" t="Include" />
+            <e p="GenerateLevel.cs" t="Include" />
+            <e p="GridBase.cs" t="Include" />
+            <e p="InterfaceManager.cs" t="Include" />
+            <e p="Level_SaveLoad.cs" t="Include" />
+            <e p="LevelCreator.cs" t="Include" />
+            <e p="LevelFunctions.cs" t="Include" />
+            <e p="LevelManager.cs" t="Include" />
+            <e p="MoveCameraButton.cs" t="Include" />
+            <e p="Node.cs" t="Include" />
+            <e p="ObjectFeatures.cs" t="Include" />
+            <e p="SubNode.cs" t="Include" />
+          </e>
+          <e p="ObjectsScript" t="Include">
+            <e p="DeadlyObject.cs" t="Include" />
+            <e p="Move.cs" t="Include" />
+            <e p="Move2.cs" t="Include" />
+            <e p="RodSystem.cs" t="Include" />
+            <e p="Rotate.cs" t="Include" />
+            <e p="ShowPath.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="Lose_Detector.cs" t="Include" />
+            <e p="Swipe.cs" t="Include" />
+            <e p="TorusPhysic.cs" t="Include" />
+            <e p="Trajectory.cs" t="Include" />
+            <e p="Win_Collider.cs" t="Include" />
+          </e>
+          <e p="Resource Managers" t="Include">
+            <e p="Level_GameObject.cs" t="Include" />
+            <e p="Levels.cs" t="Include" />
+            <e p="ResourcesManager.cs" t="Include" />
+          </e>
+          <e p="Splash" t="Include">
+            <e p="Splash.cs" t="Include" />
+          </e>
+          <e p="Theme" t="Include">
+            <e p="ThemeResource.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Ultimate 2D Trajectory Predictor" t="Include">
+          <e p="MaskScript.cs" t="Include" />
+          <e p="MaskScriptChildren.cs" t="Include" />
+          <e p="trajectoryScript.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="ThrowTheRing.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
